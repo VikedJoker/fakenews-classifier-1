@@ -1,6 +1,9 @@
 # Fake News Classifier Web
-
-#### Classifies news articles as fake or not using TFIDF and LogisticRegression
+News articles influences people's ideas and opinion on the certain topics.Misleading articles and hoax articles could trigger extreme reactions from the public.Hence,it is very important to factcheck and use reliable sources for following the latest news affairs.
+This website uses an ML model to understand news articles and tries to predict if the given article is fake or not.
+##### This model is not perfect but could aide in checking reliability of an article.
+This model classifies news articles as fake or not using TFIDF and Logistic Regression and had a 92% accuracy when classifying dataset from kaggle.com/fake-news.
+More information about the model can be found from the Model.ipynb file.
 
 #### Dependencies
 NLTK \
